@@ -1,0 +1,324 @@
+<html lang="en-US"><head>
+  <title>EveBot</title>
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/embed/avatars/4.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="commands.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&amp;display=swap" rel="stylesheet">
+  <!-- Primary Meta Tags -->
+  <title>EveBot</title>
+  <meta name="title" content="EveBot">
+  <meta name="description" content="A powerful multi-purpose Discord bot written in JavaScript using the Discord.js library.">
+  <meta property="image" content="https://www.pedohurt.net/commands/4.png">
+
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.pedohurt.net/commands/">
+  <meta property="og:title" content="EveBot">
+  <meta property="og:description" content="A powerful multi-purpose Discord bot written in JavaScript using the Discord.js library.">
+  <meta property="og:image" content="https://www.pedohurt.net/commands/4.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.pedohurt.net/commands/">
+  <meta property="twitter:title" content="EveBot">
+  <meta property="twitter:description" content="A powerful multi-purpose Discord bot written in JavaScript using the Discord.js library.">
+  <meta property="twitter:image" content="https://www.pedohurt.net/commands/4.png">
+
+<style type="text/css">
+button.btn[data-v-cef78672]{display:inline-block;font-weight:300;line-height:1.25;text-align:center;white-space:nowrap;vertical-align:middle;user-select:none;border:1px solid transparent;cursor:pointer;letter-spacing:1px;transition:all .15s ease
+}
+button.btn.btn-sm[data-v-cef78672]{padding:.4rem .8rem;font-size:.8rem;border-radius:.2rem
+}
+button.btn.btn-primary[data-v-cef78672]{color:#fff;background-color:#45C8F1;border-color:#45C8F1
+}
+button.btn.btn-outline-primary[data-v-cef78672]{color:#45C8F1;background-color:transparent;border-color:#45C8F1
+}
+button.btn.btn-danger[data-v-cef78672]{color:#fff;background-color:#FF4949;border-color:#FF4949
+}
+.text-muted[data-v-cef78672]{color:#8492A6
+}
+.text-center[data-v-cef78672]{text-align:center
+}
+.drop-down-enter[data-v-cef78672],.drop-down-leave-to[data-v-cef78672]{transform:translateX(0) translateY(-20px);transition-timing-function:cubic-bezier(0.74, 0.04, 0.26, 1.05);opacity:0
+}
+.drop-down-enter-active[data-v-cef78672],.drop-down-leave-active[data-v-cef78672]{transition:all .15s
+}
+.move-left-enter[data-v-cef78672],.move-left-leave-to[data-v-cef78672]{transform:translateY(0) translateX(-80px);transition-timing-function:cubic-bezier(0.74, 0.04, 0.26, 1.05);opacity:0
+}
+.move-left-enter-active[data-v-cef78672],.move-left-leave-active[data-v-cef78672]{transition:all .15s
+}
+.shake[data-v-cef78672]{animation:shake-data-v-cef78672 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;transform:translate3d(0, 0, 0)
+}
+@keyframes shake-data-v-cef78672{
+10%,90%{transform:translate3d(-1px, 0, 0)
+}
+20%,80%{transform:translate3d(2px, 0, 0)
+}
+30%,50%,70%{transform:translate3d(-4px, 0, 0)
+}
+40%,60%{transform:translate3d(4px, 0, 0)
+}
+}
+.pulse[data-v-cef78672]{animation:pulse-data-v-cef78672 2s ease infinite
+}
+@keyframes pulse-data-v-cef78672{
+0%{opacity:.7
+}
+50%{opacity:.4
+}
+100%{opacity:.7
+}
+}
+.flash-once[data-v-cef78672]{animation:flash-once 3.5s ease 1
+}
+@keyframes fade-up-data-v-cef78672{
+0%{transform:translate3d(0, 10px, 0);opacity:0
+}
+100%{transform:translate3d(0, 0, 0);opacity:1
+}
+}
+.fade-in[data-v-cef78672]{animation:fade-in-data-v-cef78672 .3s ease-in-out
+}
+@keyframes fade-in-data-v-cef78672{
+0%{opacity:0
+}
+100%{opacity:1
+}
+}
+.spin[data-v-cef78672]{animation-name:spin-data-v-cef78672;animation-duration:2000ms;animation-iteration-count:infinite;animation-timing-function:linear
+}
+@keyframes spin-data-v-cef78672{
+from{transform:rotate(0deg)
+}
+to{transform:rotate(360deg)
+}
+}
+.bounceIn[data-v-cef78672]{animation-name:bounceIn-data-v-cef78672;transform-origin:center bottom;animation-duration:1s;animation-fill-mode:both;animation-iteration-count:1
+}
+@keyframes bounceIn-data-v-cef78672{
+0%,20%,40%,60%,80%,100%{-webkit-transition-timing-function:cubic-bezier(0.215, 0.61, 0.355, 1);transition-timing-function:cubic-bezier(0.215, 0.61, 0.355, 1)
+}
+0%{opacity:1;-webkit-transform:scale3d(0.8, 0.8, 0.8);transform:scale3d(0.8, 0.8, 0.8)
+}
+20%{-webkit-transform:scale3d(1.1, 1.1, 1.1);transform:scale3d(1.1, 1.1, 1.1)
+}
+40%{-webkit-transform:scale3d(0.9, 0.9, 0.9);transform:scale3d(0.9, 0.9, 0.9)
+}
+60%{opacity:1;-webkit-transform:scale3d(1.03, 1.03, 1.03);transform:scale3d(1.03, 1.03, 1.03)
+}
+80%{-webkit-transform:scale3d(0.97, 0.97, 0.97);transform:scale3d(0.97, 0.97, 0.97)
+}
+100%{opacity:1;-webkit-transform:scale3d(1, 1, 1);transform:scale3d(1, 1, 1)
+}
+}
+@keyframes dots-data-v-cef78672{
+0%,20%{color:rgba(0,0,0,0);text-shadow:0.25em 0 0 rgba(0,0,0,0),0.5em 0 0 rgba(0,0,0,0)
+}
+40%{color:#8492A6;text-shadow:0.25em 0 0 rgba(0,0,0,0),0.5em 0 0 rgba(0,0,0,0)
+}
+60%{text-shadow:0.25em 0 0 #8492A6,0.5em 0 0 rgba(0,0,0,0)
+}
+80%,100%{text-shadow:.25em 0 0 #8492A6, .5em 0 0 #8492A6
+}
+}
+@keyframes recording-data-v-cef78672{
+0%{box-shadow:0px 0px 5px 0px rgba(173,0,0,0.3)
+}
+65%{box-shadow:0px 0px 5px 5px rgba(173,0,0,0.3)
+}
+90%{box-shadow:0px 0px 5px 5px rgba(173,0,0,0)
+}
+}
+html[data-v-cef78672]{max-height:500px
+}
+body[data-v-cef78672]{margin:0;font-size:100%;color:#3C4858;width:350px;max-height:500px
+}
+a[data-v-cef78672]{text-decoration:none;color:#45C8F1
+}
+h1[data-v-cef78672],h2[data-v-cef78672],h3[data-v-cef78672],h4[data-v-cef78672]{margin-top:0
+}
+.container_selected_area[data-v-cef78672]{padding:0px;position:fixed;z-index:1000000;top:0px;left:0px;right:0px;bottom:0px;display:none;visibility:hidden
+}
+.container_selected_area.active[data-v-cef78672]{visibility:visible;display:block
+}
+.container_selected_area .label[data-v-cef78672]{font-family:"Didact Gothic Regular",sans-serif;font-size:22px;text-align:center;padding-top:15px
+}
+.container_selected_area .area[data-v-cef78672]{border:1px solid #1e83ff;background:rgba(30,131,255,0.1);display:none;position:fixed;z-index:1000000;box-sizing:border-box
+}
+.container_selected_area .area.active[data-v-cef78672]{display:block;top:0px;left:0px
+}
+.hide[data-v-cef78672]{display:none
+}
+</style></head>
+
+<body>
+  <header class="header">
+    <a href="../index.html" class="logo"><img src="https://cdn.discordapp.com/embed/avatars/4.png"> EveBot</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn">
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a class="active" href="commands.html">Commands</a></li>
+      <li><a href="https://www.pedohurt.net/invite.html">Support</a></li>
+      <li><a href="https://discord.com/oauth2/authorize?client_id=768372970233528331&permissions=8&scope=bot">Invite</a></li>
+      <li><a href="https://evebin.pedohurt.net/">EveBin</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="tabs">
+      <div class="tab-header">
+        <div class="tablink tab-active" onclick="openCity(event,'Animals')">Animals</div>
+        <div class="tablink " onclick="openCity(event,'Fun')">Fun</div>
+        <div class="tablink" onclick="openCity(event,'Image')">Image</div>
+        <div class="tablink" onclick="openCity(event,'Info')">Info</div>
+        <div class="tablink" onclick="openCity(event,'Misc')">Misc</div>
+        <div class="tablink" onclick="openCity(event,'Moderation')">Moderation</div>
+
+      </div>
+  
+      <div style="margin-left:130px">
+  
+        <div id="Animals" class="tab-content category" style="display: block;">
+          <p><a>aww</a><br>You want some cute animals? Here you go!</p>
+          <p><a>cat</a><br>Lets see some pretty kitties!</p>
+          <p><a>dog</a><br>See some cute doggos!</p>
+          <p><a>ferrets</a><br>If you want some ferrets? Say no more!</p>
+          <p><a>hamster</a><br>hamsters! Do you like em?</p>
+          <p><a>hippo</a><br>You want some chonky hippos?</p>
+          <p><a>otter</a><br>Otters are SO cute</p>
+          <p><a>panda</a><br>What do you prefer? Red pandas or Pandas.</p>
+          <p><a>platypus</a><br>How do you describe them again?</p>
+          <p><a>rabbit</a><br>Bunnies! Aren't they cute?</p>
+          <p><a>redpanda</a><br>What do you prefer? Red pandas or Pandas.</p>
+          <p><a>snake</a><br>Are they really that scary?</p>
+          <p><a>squirrel</a><br>Aren't squirrel cute when they are eating?</p>
+        </div>
+
+        <div id="Fun" class="tab-content category" style="display: none;">
+          <p><a>8ball</a><br>Ask the magic 8-ball for an answer.</p>
+          <p><a>ascii</a><br>Get a nice ascii art.</p>
+          <p><a>clapify</a><br>Generate clapified 👏 text 👏</p>
+          <p><a>coinflip</a><br>Flip a coin and see what you get. Heads or Tails?</p>
+          <p><a>cow</a><br>Make a cow to say anything you want.</p>
+          <p><a>cursive</a><br>Converts text into 𝒸𝓊𝓇𝓈𝒾𝓋𝑒 𝓉𝑒𝓍𝓉.</p>
+          <p><a>emojify</a><br>Changes text into emojis.</p>
+          <p><a>fight</a><br>Simulates a fight against another user.</p>
+          <p><a>flip</a><br>pilF specified text.</p>
+          <p><a>hack</a><br>"Hack" your friends! Or your enemies...</p>
+          <p><a>iq</a><br><del>Randomise</del> Calculate your IQ.</p>
+          <p><a>joke</a><br>Get a funny joke. Dad's love them!</p>
+          <p><a>kaomoji</a><br>Display a random kaomoji! (´・ω・｀) 3000 will definitely be enough to keep you busy! (ｖ｀▽´)ｖ</p>
+          <p><a>kill</a><br>Sick of someone? Easy! Just kill them! (virtually)</p>
+          <p><a>lenny</a><br>Surely you know what lenny is, everyone does.</p>
+          <p><a>owoify</a><br>OwOify a pwovided text.</p>
+          <p><a>rickroll</a><br>"Never Gonna Give You Up."</p>
+          <p><a>roast</a><br>Sick of someone? Easy! Just roast them!</p>
+          <p><a>roll</a><br>Roll a dice and get a random number from 1 - 6.</p>
+          <p><a>rps</a><br>Play a game of Rock Paper Scissors with the bot.</p>
+          <p><a>russianroulette</a><br>Gamble with your life and play russian roulette.</p>
+          <p><a>ship</a><br>Get the compatibility rate of a two users.</p>
+          <p><a>slots</a><br>How lucky are you? Play slots to find out.</p>
+          <p><a>smallcaps</a><br>Converts text into sᴍᴀʟʟᴄᴀᴘs.</p>
+          <p><a>spoiler</a><br>Make the bot say whatever you want in annoying spoiler form.</p>
+          <p><a>spongebob</a><br>Converts text into SpOnGeBoB mOcKiNg TeXt.</p>
+          <p><a>tableflip</a><br>Flips a table... with animation!</p>
+          <p><a>trivia</a><br>Test your knowledge with a trivia question.</p>
+          <p><a>vaporwave</a><br>Converts text into ｖａｐｏｒｗａｖｅ.</p>
+          <p><a>whoasked</a><br>Bruh Who asked?</p>
+          <p><a>worm</a><br>Makes a worm of a random length.</p>
+        </div>
+  
+        <div id="Image" class="tab-content category" style="display: none;">
+          <p><a>achi</a><br>Get a personalised minecraft achievement.</p>
+          <p><a>batslap</a><br>Batslap a specified user.</p>
+          <p><a>bed</a><br>Make your own bed meme.</p>
+          <p><a>blurpify</a><br>Make someone's avatar blurple.</p>
+          <p><a>changemymind</a><br>Make your own changemymind meme</p>
+          <p><a>clyde</a><br>Make Clyde say something.</p>
+          <p><a>dictator</a><br>Make someone a dictator.</p>
+          <p><a>fly</a><br>Sends a fake image of a fly that looks suspiciously real.</p>
+          <p><a>gay</a><br>Show your inner gay pride.</p>
+          <p><a>jail</a><br>Send your friends to jail!</p>
+          <p><a>meme</a><br>Get some fresh new memes from reddit!</p>
+          <p><a>nitro</a><br>Ever wanted a fake nitro giveaway? Now you've got one.</p>
+          <p><a>pixelate</a><br>Make someone's avatar pixelated.</p>
+          <p><a>rip</a><br>Pay your respects.</p>
+          <p><a>scary</a><br>Why are you so scary?</p>
+          <p><a>shit</a><br>You worthless piece of shit! (jk)</p>
+          <p><a>spam</a><br>Sends spam images.</p>
+          <p><a>supreme</a><br>Make a supreme logo with the text of your choice.</p>
+          <p><a>tobecontinued</a><br>To be continued...</p>
+          <p><a>triggered</a><br>Why you so TRIGGERED bro?</p>
+          <p><a>trump</a><br>Make trump tweet something.</p>
+          <p><a>wanted</a><br>Excuse me ur under arrest.</p>
+          <p><a>wasted</a><br>Rest in pepperonis.</p>
+        </div>
+  
+        <div id="Info" class="tab-content category" style="display:none">
+          <p><a>about</a><br>Returns the bot's about page.</p>
+          <p><a>aliases</a><br>Shows you a list of aliases for the specified command.</p>
+          <p><a>botinfo</a><br>Displays indept information about the bot.</p>
+          <p><a>channelinfo</a><br>Displays information about a provided channel.</p>
+          <p><a>color</a><br>Shows information about a specified color.</p>
+          <p><a>country</a><br>Displays information about a specified country.</p>
+          <p><a>device</a><br>Tells you which devices a user is on.</p>
+          <p><a>djs</a><br>Searches the Discord.JS documentation for the specified query.</p>
+          <p><a>github</a><br>Displays information about someone's Github account.</p>
+          <p><a>help</a><br>Returns all commands, or one specific command info.</p>
+          <p><a>instagram</a><br>Find a user's instagram statistics.</p>
+          <p><a>links</a><br>Returns the bot's links.</p>
+          <p><a>membercount</a><br>Displays the specified guild's member count.</p>
+          <p><a>npm</a><br>Get info about a specified npm package.</p>
+          <p><a>ping</a><br>Returns the bot's latency and API ping.</p>
+          <p><a>pokedex</a><br>Searches the Pokédex for a Pokémon.</p>
+          <p><a>roleinfo</a><br>Displays information about a provided role.</p>
+          <p><a>selfharm</a><br>A command to get help with self-harm or suicidal thoughts, it's NOT a joke to us.</p>
+          <p><a>serverinfo</a><br>Displays information about the server.</p>
+          <p><a>steam</a><br>Get steam statistics for a specifed user.</p>
+          <p><a>time</a><br>Shows the current time.</p>
+          <p><a>tos</a><br>Shows the terms of service of the bot.</p>
+          <p><a>uptime</a><br>Check how long has the bot been online.</p>
+          <p><a>urban</a><br>Get a definition from the Urban Dictonary. (NSFW Channel required)</p>
+          <p><a>userinfo</a><br>Displays information about a provided user or the message author.</p>
+          <p><a>weather</a><br>Shows the weather of a specified loction.</p>
+        </div>
+  
+        <div id="Misc" class="tab-content category" style="display:none">
+          <p><a>activity</a><br>Feeling bored? Get some activities to do.</p>
+          <p><a>avatar</a><br>Get the avatar of the message author or a specified user.</p>
+          <p><a>base64</a><br>Converts normal text to YmFzZTY0.</p>
+          <p><a>binary</a><br>Converts normal text to 011000100110100101101110011000010111001001111001.</p>
+          <p><a>decode</a><br>Converts encoded binary &amp; base64 text back to normal.</p>
+          <p><a>embed</a><br>Get a example embed or embed specified text.</p>
+          <p><a>enlarge</a><br>Enlarge a specified emoji.</p>
+          <p><a>gif</a><br>Searches for a specified gif.</p>
+          <p><a>hastebin</a><br>Upload specified text to hastebin.</p>
+          <p><a>loremipsum</a><br>Send the Lorem Ipsum dummy text.</p>
+          <p><a>news</a><br>Get the latest news from around the world.</p>
+          <p><a>math</a><br>Helps you solve a math calculation.</p>
+          <p><a>quotes</a><br>Get a random inspiring quote.</p>
+          <p><a>randomavatar</a><br>Get random avatars!</p>
+          <p><a>randomfact</a><br>Get a random fact from the internet.</p>
+          <p><a>report</a><br>Report an issue within the bot to the developers.</p>
+          <p><a>suggest</a><br>Make suggestion for the bot's upcoming features.</p>
+          <p><a>wallpaper</a><br>Get a ramdom wallpaper..</p>
+        </div>
+  
+        <div id="Moderation" class="tab-content category" style="display:none">
+          <p><a>addrole</a><br>Adds a role to a specified user.</p>
+          <p><a>nickname</a><br>Set the nickname of a specified user.</p>
+          <p><a>nuke</a><br>Clones the current channel and deletes the old one.</p>
+          <p><a>pin</a><br>Pin a specific messaged to the channel.</p>
+          <p><a>removerole</a><br>Removes a specified role from a specified user.</p>
+          <p><a>unpin</a><br>Unpin a specific messaged from the channel.</p>
+        </div>
+      </div>
+  
+      <script type="text/javascript" src="commands.js"></script>
+    </section>
+  </main>
+
+
+<input type="file" id="" name="file" style="display: none;"><div data-v-cef78672="" class="container_selected_area" style="cursor: url(&quot;chrome-extension://ialiedlpfknneamnbemcgmaboleiccdd/assets/images/cursor-imagen.svg&quot;) 9 9, crosshair;"><div data-v-cef78672="" class="area"></div></div></body></html>
