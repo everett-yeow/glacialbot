@@ -180,7 +180,16 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
         
         <div class="copyright mbr-px-2 mbr-flex mbr-jc-c">
             <p class="mbr-text mbr-fonts-style mbr-white align-center display-7">
-                © <span>2020</span> <span>Glacial</span>
+                <div class="copyright" align="center">
+                  <script>
+                    document.write('&copy;' );
+                    document.write(' 2020 - ');
+                    document.write(new Date().getFullYear());
+                    document.write(' glacialbot.com - All Rights Reserved.');
+                    document.write('<br/>Last Updated : ');
+                    document.write(document.lastModified);
+                  </script>
+                </div>
             </p>
         </div>
     </div>
