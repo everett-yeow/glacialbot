@@ -192,12 +192,12 @@ a {
 }
 .gallery img {
     margin: 135px;
-    width: 30%;
-    height: 30%;
+    width: 33%;
+    height: 33%;
     filter: drop-shadow(0 5px 3px #000000);
 }
 .des-title {
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 0;
     padding: 15px;
     text-align: center;
     color: #ffffff;
