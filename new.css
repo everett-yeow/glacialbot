@@ -191,7 +191,7 @@ a {
     width: 390px;
 }
 .gallery img {
-    width: 80%;
+    width: 50%;
     height: auto;
     filter: drop-shadow(0 5px 3px #000000);
 }
