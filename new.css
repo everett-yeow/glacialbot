@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: Montserrat, sans-serif;
-    background-color: #3f3f3f;
+    background-color: #73706f;
 }
 a {
     color: #ffffff;
@@ -259,7 +259,7 @@ a {
         text-align: center;
     }
     .gallery img {
-        width: 300px;
-        height: 70%;
+        width: auto;
+        height: auto;
     }
 }
