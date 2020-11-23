@@ -192,8 +192,8 @@ a {
 }
 .gallery img {
     margin: 105px;
-    width: 39%;
-    height: 39%;
+    width: 45%;
+    height: 49%;
     filter: drop-shadow(0 5px 3px #000000);
 }
 .des-title {
