@@ -174,8 +174,8 @@ a {
     filter: drop-shadow(0 5px 3px #000000);
 }
 .pictures {
-    margin-top: 250px;
-    max-width: 1200px;
+    margin-top: 150px;
+    max-width: 1000px;
     margin: auto;
     overflow: auto;
 }
