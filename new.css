@@ -186,12 +186,13 @@ a {
     margin: 0 0 50px 0;
 }
 .gallery {
-    margin: 30px;
+    margin: 5px;
     float: left;
     width: 390px;
 }
 .gallery img {
-    width: 40%;
+    margin: 30px;
+    width: 50%;
     height: auto;
     filter: drop-shadow(0 5px 3px #000000);
 }
