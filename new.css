@@ -174,7 +174,7 @@ a {
     filter: drop-shadow(0 5px 3px #000000);
 }
 .pictures {
-    margin-top: 100px;
+    margin-top: 250px;
     max-width: 1200px;
     margin: auto;
     overflow: auto;
@@ -191,7 +191,7 @@ a {
     width: 390px;
 }
 .gallery img {
-    margin: 135px;
+    margin: 138px;
     width: 33%;
     height: 33%;
     filter: drop-shadow(0 5px 3px #000000);
@@ -260,6 +260,6 @@ a {
     }
     .gallery img {
         width: 300px;
-        height: 70%;
+        height: 40%;
     }
 }
