@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: Montserrat, sans-serif;
-    background-color: #3f3f3f;
+    background-color: #403f3f;
 }
 a {
     color: #ffffff;
@@ -191,8 +191,9 @@ a {
     width: 390px;
 }
 .gallery img {
-    width: 100%;
-    height: auto;
+    margin: 135px;
+    width: 33%;
+    height: 33%;
     filter: drop-shadow(0 5px 3px #000000);
 }
 .des-title {
